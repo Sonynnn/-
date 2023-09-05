@@ -1,0 +1,394 @@
+tml,body {font-size: 16px;
+    line-height: 1.5;
+    min-width: 400px;}
+    
+    
+    img {display: inline-block;}
+    
+    a {transition: 0.5s case-out;}
+    
+    * {box-sizing: border-box;}
+    
+    .header {
+        background-color:#814a02;
+        background-image: url(image/neom-iQR2jzuw9m8-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 40vh;
+        min-height: 600px;
+    
+    
+        color: #FFF;
+        text-align: center;
+    
+        display: flex;
+       
+    }    
+
+    .h_title {
+        font-size: 60px;
+        margin-bottom: 30px;
+        margin-top: 250px;
+        margin-left: -50px;
+    }    
+
+    .h_1 {
+        color: #FFF;
+        font-size: 60px;
+        margin-top: 30px;
+        margin-left: 50px;
+
+    }
+    .p_1 {
+        color: #FFF;
+        font-size: 18px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    li {
+        list-style: none;
+        margin: 0px;
+        padding: 20px;
+        padding-left: 0px;
+    }
+    a{
+        font-size: 20px;
+        padding: 20px;
+        color: black;
+        text-decoration: none;
+    }
+    a:hover {
+        color:saddlebrown;
+        text-decoration: none;
+    }
+
+    li {
+        display: inline;
+    }
+    
+    
+ /* ****************************************
+Footer
+
+************************************** */   
+
+
+
+.footer {
+    background-color: #000000;
+    color-scheme:rgb(255, 255, 255);
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+p.ft_name {
+    font-size: 26px;
+    line-height: normal;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+
+
+.button {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color:#FFF;
+    display: inline-block;
+    
+    border-width: 3px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 45px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button:hover {
+    color: #000000;
+    background-color: #FFF;
+    text-align: left;
+}
+
+p {
+    color: #FFF;
+}
+
+
+/* ****************************************
+Adaptation
+
+************************************** */
+
+
+.c-4 {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center; 
+    
+}
+
+
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /*
+Форма обратной связи
+*/
+#inline {
+    margin-top: 100px;
+    margin-left:30px;
+    width:80%;
+    background:#fcfcfc;
+    padding:10px 20px;
+ }
+
+ h2 {
+    color: black;
+ }
+ 
+ .txt {
+    display:inline-block;
+    color:#676767;
+    width:190px;
+    margin-bottom:10px;
+    border:1px solid #CCC;
+    padding:5px 9px;
+    font-size:15px;
+    
+ }
+ .txtarea {
+    display:inline-block;
+    color:#676767;
+    width:617px;
+    margin-bottom:10px;
+    border:1px solid #CCC;
+    padding:5px 9px;
+    font-size:15px;
+    
+    height:80px;
+ }
+ 
+ #send { 
+     color:#FFFFFF;
+     display:block;
+     cursor:pointer;
+     padding:5px 11px;
+     font-size:1.2em;
+     border:solid 1px #F9F9F9;
+     border-radius:2px;
+     background:#70C6B9;
+     width:210px;
+     margin-bottom:20px;
+ }
+ #send:hover {
+     background:#979797;
+ }
+ /*
+ Форма обратной связи
+ */
+
+ .button_back {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color:#ffffff;
+    display: inline-block;
+    margin: 40px;
+    
+    border-width: 3px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 45px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button_back:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+
+
+/*
+ Слайдер
+ */
+
+.slider{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.photos{
+    position: relative;
+    width: 600px;
+    height: 400px;
+
+}
+
+.slider-image{
+    width: 600px;
+    height: 400px;
+
+    position: absolute;
+    top: 0;
+
+    opacity: 0;
+
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+}
+
+.actions{
+    display: flex; 
+    justify-content: center;
+}
+
+
+ /* project-section */
+
+.project-section{
+    width: 95%;
+    top: 0;
+    margin: 35px;
+    
+}
+
+.project-heading{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #ffffff;
+   
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+}
+
+.project-card{
+    height: 400px;
+    position: relative;
+}
+
+.project-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.project-content{
+    position: relative;
+    padding: 40px;
+    color: #000000;
+    transition: .5s;
+    opacity: 0;
+}
+
+.project-title{
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 300;
+}
+
+.project-info{
+    margin: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+}
+
+.project-btn-grp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.project-btn{
+    height: 40px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: none;
+    background: #000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.project-btn.live{
+    background: none;
+    border: 2px solid #ffffff;
+}
+
+.project-card:hover .project-img{
+    filter: blur(20px);
+}
+
+.project-card:hover .project-content{
+    opacity: 1;
+}
+
+/* Образование */
+
+.card{
+    width: 45%;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    margin: 100px;
+    position: relative;
+    background: rgb(255, 157, 0);
+}
+
+.card1{
+    width: 45%;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    margin: 100px;
+    position: relative;
+    background: rgb(34, 0, 255);
+}
+
+.card2{
+    width: 45%;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    margin: 100px;
+    position: relative;
+    background: rgb(234, 23, 33);
+}
